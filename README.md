@@ -30,11 +30,11 @@ You can view specific parts of the dashboard by using the following switches:
  Service Monitoring: ./system_monitor.sh -services
 
 Examples
-	View top 10 most used applications: ./system_monitor.sh -cpu
+View top 10 most used applications: ./system_monitor.sh -cpu
 	
- Check disk usage: ./system_monitor.sh -disk
+Check disk usage: ./system_monitor.sh -disk
  
-	Monitor network statistics: ./system_monitor.sh -network
+Monitor network statistics: ./system_monitor.sh -network
 
 Requirements
 
@@ -42,10 +42,7 @@ Requirements
 
 •	ps, ss, netstat, ifstat, df, free, swapon, mpstat, systemctl installed on the system.
 
-
-
-
-#Secure Audit and Hardening Script
+                #Secure Audit and Hardening Script
 
 Overview
 
