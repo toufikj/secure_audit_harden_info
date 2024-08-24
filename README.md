@@ -35,14 +35,23 @@ curl and mail utilities installed for reporting and IP identification.
 Usage
 
 Clone the Repository: git clone https://github.com/yourusername/secure-audit-harden.git
+
 cd secure-audit-harden
+
 Run the Script: sudo ./secure_audit_harden.sh
+
 Custom Checks: 
+
 Add your custom checks to the configuration file located at: /etc/secure_audit_harden/custom_checks.conf
+
 View the Report: 
+
 The audit report is saved to: /var/log/secure_audit_report.log
+
 Email Alerts: Configure the mail utility to receive alerts if critical issues are found.
 
 Configuration
+
 SSH Configuration: The script configures SSH to disable password-based logins for the root user.
+
 Automatic Updates: Ensures the server is configured for automatic security updates.
